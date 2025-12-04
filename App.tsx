@@ -1709,11 +1709,20 @@ export default function HHDAOLanding() {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 w-full border-b border-white/10 bg-[#050505]/80 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className={`w-8 h-8 rounded-lg bg-gradient-to-tr from-orange-500 to-yellow-500 flex items-center justify-center`}>
-              <Sun className="text-white w-5 h-5" />
-            </div>
+          <div className="flex items-center gap-3">
+
+            <img 
+
+              src="/hhdaologo.avif" 
+
+              alt="HeliosHash DAO Logo" 
+
+              className="w-10 h-10 object-contain"
+
+            />
+
             <span className="text-lg font-bold brand-font tracking-wide">HeliosHash DAO</span>
+
           </div>
 
           {/* Desktop Nav */}
